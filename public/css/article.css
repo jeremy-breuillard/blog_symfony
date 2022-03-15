@@ -1,0 +1,28 @@
+.btn.retour {
+   border-radius: 2px;
+   box-shadow: 1px 1px;
+   background-color: rgba(165, 42, 42, 0.692);
+   color: white;
+   font-weight: 700;
+}
+
+img {
+   border-radius: 3px;
+   margin-top: 20px;
+}
+
+.comment {
+   border-bottom: 1px solid rgb(210, 224, 212);
+   border-width: 6px;
+   margin-bottom: 19px;
+}
+
+.formu {
+   font-size: 30px;
+}
+
+label {
+   font-weight: 600;
+   font-size: 1.1em;
+   margin-top: 10px;
+}

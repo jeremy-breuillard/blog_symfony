@@ -1,0 +1,19 @@
+
+{% block header %}
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <li class="nav-item accueil">
+      <a class="nav-link active" href="{{ path('index') }}">Accueil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="/login">Connexion</a>
+    </li>
+    {% if app.user %}
+    <a class="nav-link" href="{{ path('app_logout') }}">Logout</a>
+    {% endif %}
+  </li>
+  
+</ul>
+
+ {% endblock %}
